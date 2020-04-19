@@ -1,5 +1,8 @@
 # Ansible Role: Homebrew
 
+[![Galaxy Role][badge-role]][link-galaxy]
+
+
 Installs [Homebrew][homebrew] on MacOS, and configures packages, taps, and cask apps according to supplied variables.
 
 ## Requirements
@@ -100,3 +103,9 @@ Any additional folders inside `homebrew_prefix` for which to ensure homebrew use
           - mysql
       roles:
         - agmalpartida.homebrew
+
+
+[badge-role]: https://img.shields.io/badge/role-agmalpartida.homebrew-blue
+[link-galaxy]: https://galaxy.ansible.com/agmalpartida/homebrew/
+[caskroom]: https://caskroom.github.io/search
+[homebrew]: http://brew.sh/
