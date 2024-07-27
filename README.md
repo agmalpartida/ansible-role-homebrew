@@ -17,7 +17,7 @@ Available variables are listed below, along with default values (see [`defaults/
 
 The GitHub repository for Homebrew core.
 
-    homebrew_prefix: /usr/local
+    homebrew_prefix: /opt/homebrew
     homebrew_install_path: "{{ homebrew_prefix }}/Homebrew"
 
 The path where Homebrew will be installed (`homebrew_prefix` is the parent directory). It is recommended you stick to the default, otherwise Homebrew might have some weird issues. If you change this variable, you should also manually create a symlink back to /usr/local so things work as Homebrew expects.

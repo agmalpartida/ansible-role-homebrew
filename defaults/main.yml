@@ -2,7 +2,7 @@
 homebrew_repo: https://github.com/Homebrew/brew
 
 homebrew_user: alberto
-homebrew_prefix: /usr/local
+homebrew_prefix: /opt/homebrew
 homebrew_install_path: "{{ homebrew_prefix }}/Homebrew"
 homebrew_brew_bin_path: "{{ homebrew_prefix }}/bin"
 
