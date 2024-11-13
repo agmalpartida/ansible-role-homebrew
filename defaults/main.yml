@@ -12,8 +12,7 @@ homebrew_uninstalled_packages: []
 
 homebrew_upgrade_all_packages: no
 
-homebrew_taps:
-  - homebrew/core
+homebrew_taps: []
 
 homebrew_cask_apps: []
 
